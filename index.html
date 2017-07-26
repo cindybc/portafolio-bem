@@ -2,9 +2,48 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>BEM</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	
+	<nav class="navbar-default">
+        <div class="container-fluid">
+           <div class="navbar-header">
+               <a class="navbar-brand" href="#"><img src="img/profile.jpg" class="nav__logo img-circle"  width="50" class="img-circle" alt="perfil"></a>
+           </div>
+           <ul class="nav navbar-nav navMenu">
+               <li class="active navMenu__lista"><a href="#" class="navMenu__lista__item--azul"><i class="fa fa-user" aria-hidden="true"></i> PROFILE</a></li>
+               <li class=" navMenu__lista" ><a href="#"  class="navMenu__lista__item"><i class="fa fa-trophy" aria-hidden="true"></i> SKILLS</a></li>
+               <li class="navMenu__lista"><a href="#"  class="navMenu__lista__item"><i class="fa fa-picture-o" aria-hidden="true"></i> WORK</a></li>
+               <li class="navMenu__lista"><a href="#"  class="navMenu__lista__item"><i class="fa fa-file-text-o" aria-hidden="true"></i> RESUME</a></li>
+           </ul>
+        </div>
+    </nav>
+    <section>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-5 align-self-end">
+    				<img src="img/profile.jpg" width="300" class="img-circle pull-right" alt="perfil">
+    			</div>
+    			<div class="col-md-6 perfil">
+    				<h1 class="perfil__titulo">Juan Dela Cruz</h1>
+    				<h4 class="perfil__titulo__parrafo">Web & Graphics Designer</h4>
+    				<p class="perfil__titulo__parrafo">Hello I am Juan Dela Cruz Web and Graphics Designer from Philipines. If you have something to be done just call my name and I will be there :)</p>
+    				<button class="btn perfil__btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> HIRE ME</button>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<div class="col-md-12 text-center sociales">
+    			    <img class="sociales__img" src="img/facebook.png" alt="">
+    			    <img class="sociales__img" src="img/twitter.png" alt="">
+    			    <img class="sociales__img" src="img/google-plus.png" alt="">
+    			    <img class="sociales__img" src="img/pinterest.png" alt="">
+    			    <img class="sociales__img" src="img/dribbble (3).png" alt="">
+    			</div>
+    		</div>
+    	</div>
+    </section>
 </body>
 </html>
