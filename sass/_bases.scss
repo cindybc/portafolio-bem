@@ -1,0 +1,17 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	padding-left: 300px;
+}
+
+section{
+	background-color: $azul;
+	padding: 30px 0;
+}
+
+nav{
+	background-color: $rojo !important;
+	padding: 15px 0;
+}
